@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilo Incorporado</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background: #EEE;
+        }
+        header{
+            background: #CCC;
+            margin: 10px 20px 5px 25px; /* topo, direita, baixo, esquerda */
+        }
+        main{
+            background: #AAA;
+            padding: 20px 10px; /* topo baixo, esquerda direita */
+        }
+        p{
+            color: #F00;
+        }
+        #primeiro-paragrafo{
+            color: #0FF;
+        }
+        .paragrafo-padrao-classe{
+            color: #FF0;
+        }
+
+        footer{
+            background: #333;
+            color: #FFF;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Título Principal</h1>
+    </header>
+    <main>
+        <h2>Título Secundário</h2>
+        <p id="primeiro-paragrafo">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam nisi similique ipsam delectus ratione, asperiores, ipsa vitae, quae quisquam repellendus consectetur sit aliquid voluptate id itaque accusantium nulla sapiente nihil.</p>
+        <section>
+            <article>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate commodi hic, omnis culpa unde laborum voluptate, non fugiat numquam adipisci, rem at quas voluptates amet praesentium laudantium. Unde, aliquam quis!</p>
+                <p class="paragrafo-padrao-classe">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate commodi hic, omnis culpa unde laborum voluptate, non fugiat numquam adipisci, rem at quas voluptates amet praesentium laudantium. Unde, aliquam quis!</p>
+                <p class="paragrafo-padrao-classe">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate commodi hic, omnis culpa unde laborum voluptate, non fugiat numquam adipisci, rem at quas voluptates amet praesentium laudantium. Unde, aliquam quis!</p>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <address>&copy; Todos os direitos reservados </address>
+    </footer>
+    
+</body>
+</html>
