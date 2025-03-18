@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 1328px;
+    margin: auto;
+}
+
+/* header */
+
+h1{
+    text-align: center;
+}
+
+/* nav */
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
