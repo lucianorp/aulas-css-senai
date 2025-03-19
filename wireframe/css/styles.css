@@ -17,8 +17,30 @@ h1{
 
 /* nav */
 
+nav{
+    background: #BCBCBC;
+    padding: 24px 0;
+}
+
 nav ul{
     list-style: none;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+}
+
+nav ul li a{
+    color: #000;
+    font-weight: 600;
+    font-size: 25px;
+    text-decoration:none;
+    background: #FFF;
+    padding: 15px;
+    transition: all ease-in-out 0.3s;
+    border-radius: 20px 0;
+}
+
+nav ul li a:hover{
+    background: #000;
+    color: #FFF;
+    border-radius: 0 20px;
 }
