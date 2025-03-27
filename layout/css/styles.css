@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+/* variáveis */
+:root{
+    --primary-color:#47BEBA;
+    --secondary-color:#F22E52;
+    --text-color-button:#FFF;
+}
+
+.primary-color{
+    background: var(--primary-color);
+    color: var(--text-color-button);
+}
+
+.secondary-color{
+    background: var(--secondary-color);
+    color: var(--text-color-button);
+}
+
+.container{
+    width: 1172px;
+    margin: auto;
+}
+
+h1{
+    font-family: "Biryani", sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color: #160647;
+}
+
+h3{
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/* top header */
+
+.top-header{
+    background: url(../images/background.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 40px;
+}
+
+.top-header header .container{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.top-header .logo{
+    display: flex;
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
