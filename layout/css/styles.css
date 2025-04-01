@@ -44,6 +44,7 @@ h3{
     text-align: center;
     font-size: 48px;
     font-weight: bold;
+    margin: 100px 0;
 }
 
 a{
@@ -163,4 +164,21 @@ nav ul li{
     margin: 24px 0 27px;
     color: #818181;
     width: 383px;
+}
+
+/*our features */
+
+.our-features h3{
+    margin: 100px 0;
+}
+
+.our-features .container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.our-features .container .card{
+    width: 300px;
+    padding: 48px 32px;
 }
