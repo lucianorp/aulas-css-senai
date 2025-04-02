@@ -181,4 +181,123 @@ nav ul li{
 .our-features .container .card{
     width: 300px;
     padding: 48px 32px;
+    border: 1px solid #F1F1F1;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.our-features .container .card .icon-card{
+    margin-right: 36px;
+}
+
+.our-features h4{
+    font-size: 20px;
+    color: #160647;
+}
+
+.our-features p{
+    color: #7A8994;
+    margin: 25px 0 21px;
+    font-size: 14px;
+}
+
+.our-features a{
+    color: var(--primary-color);
+    font-weight: 600;
+    transition: all ease-in 0.3s;
+}
+
+.our-features a:hover{
+    text-decoration: underline;
+    color: #322853;
+}
+
+/*testimonials */
+
+.testimonials .container{
+    width: 821px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.testimonials h3{
+    width: 498px;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.testimonials .testimonial-card{
+    width: 339px;
+    padding: 50px 30px;
+    border: 1px solid #F1F1F1;
+    border-radius: 5px;
+}
+
+.testimonial-card .perfil{
+    display: flex;
+    margin-bottom: 24px;
+}
+
+.testimonial-card .perfil .photo-perfil{
+    margin-right: 16px;
+}
+
+.testimonial-card h4{
+    font-size: 20px;
+    color: #160647;
+}
+
+.testimonial-card p{
+    color: #7A8994;
+}
+
+/* works */
+
+.works .container{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.works .image-work{
+    margin-right: 48px;
+}
+
+.works .description-work h4{
+    font-size: 20px;
+    color: #160647;
+    margin-bottom: 18px;
+}
+
+.works .description-work h4 span{
+    border: 1px solid #160647;
+    font-size: 14px;
+    padding: 5px 10px;
+    margin-right: 29px;
+}
+
+.works .content-description-work{
+    border-left: 1px dotted #B4B4B4;
+    margin-left: 15px;
+    padding-left: 42px;
+    height: 300px;
+}
+
+.works .content-description-work ul{
+    list-style: none;
+    padding-left: 42px;
+    font-size: 14px;
+    color: #160647;
+    line-height: 2;
+    margin-top: 43px;
+}
+
+/*ready */
+
+.ready fieldset{
+    display: flex;
+    justify-content: space-between;
+    border: none;
 }
